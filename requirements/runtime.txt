@@ -2,10 +2,7 @@ matplotlib
 numpy
 pycocotools
 scipy
+shapely
 six
 terminaltables
-timm
-einops
-transformers
-omegaconf
-pytorch_lightning
+tqdm

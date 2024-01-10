@@ -1,5 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .csp_darknet import CSPDarknet
+from .cspnext import CSPNeXt
 from .darknet import Darknet
 from .detectors_resnet import DetectoRS_ResNet
 from .detectors_resnext import DetectoRS_ResNeXt
@@ -16,16 +17,11 @@ from .resnext import ResNeXt
 from .ssd_vgg import SSDVGG
 from .swin import SwinTransformer
 from .trident_resnet import TridentResNet
-from .convnext import ConvNeXt
-from .swin2 import SwinTransformerV2
-from .vitdet import ViTdet
-from .sd import SDEncoder_v1_feat
 
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',
     'MobileNetV2', 'Res2Net', 'HourglassNet', 'DetectoRS_ResNet',
     'DetectoRS_ResNeXt', 'Darknet', 'ResNeSt', 'TridentResNet', 'CSPDarknet',
     'SwinTransformer', 'PyramidVisionTransformer',
-    'PyramidVisionTransformerV2', 'EfficientNet', 'ConvNeXt',
-    'SwinTransformerV2', 'ViTdet', 'SDEncoder_v1_feat',
+    'PyramidVisionTransformerV2', 'EfficientNet', 'CSPNeXt'
 ]
